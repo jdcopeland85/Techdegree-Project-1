@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.main-top-nav {
   width: 100%;
   background: #000080;
   min-height: 30px;
@@ -84,17 +84,21 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
-.interests-hdr {
+.hdr {
   text-transform: uppercase;
   text-decoration: underline;
   padding: 10px 0px;
   text-align: center;
 }
+
+.emailLink {
+  color: #222;
+}
 .location {
   background-color: #ccc;
   color: black;
 }
-.card {
+.info-card {
   margin: 75px 30px 30px 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -124,6 +128,10 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.list {
+  line-height: 30px;
 }
 
 footer {
